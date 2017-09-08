@@ -76,7 +76,7 @@ def create_favorite_color_attributes(favorite_color):
 '''
 
 def help_reponse():
-    card_title = "HelpResponse"
+    card_title = "Second Headquarters - Help"
     speech_output = "You can say the name of the city you'd like to see the second headquarters built.  For example, Chicago."
     
     # Setting this to true ends the session and exits the skill.
