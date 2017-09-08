@@ -1,0 +1,73 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "NewRequest",
+          "type": "REQUEST_FROM_USERS"
+        }
+      ],
+      "intent": "RequestIntent"
+    },
+    {
+      "intent": "WhatsMyColorIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "PortlandIntent"
+    },
+    {
+      "intent": "SeattleIntent"
+    },
+    {
+      "intent": "SanFranciscoIntent"
+    },
+    {
+      "intent": "LasVegasIntent"
+    },
+    {
+      "intent": "BakingPowderIntent"
+    },
+    {
+      "intent": "HalfandHalfIntent"
+    },
+    {
+      "intent": "MolassesIntent"
+    },
+    {
+      "intent": "UnChocIntent"
+    },
+    {
+      "intent": "RicottaIntent"
+    },
+    {
+      "intent": "HeavyCreamIntent"
+    },
+    {
+      "intent": "SelfRisingIntent"
+    },
+    {
+      "intent": "FoodIntent"
+    },
+    {
+      "intent": "DrinkIntent"
+    },
+    {
+      "intent": "OilIntent"
+    },
+    {
+      "intent": "ContinueIntent"
+    },
+    {
+      "intent": "AtlantaIntent"
+    }
+  ]
+}
