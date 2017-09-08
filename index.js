@@ -162,6 +162,383 @@ def atlanta_sub():
     return build_response(session_attributes, build_speechlet_response(
         card_title, speech_output, reprompt_text, should_end_session))
 
+def austin_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Austin"
+    speech_output = "Thank you for your vote for Austin.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = "You can tell me what ingredient you'd like to sub. "
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
+def baltimore_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Baltimore"
+    speech_output = "Thank you for your vote for Baltimore.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = "You can tell me what ingredient you'd like to sub. "
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
+def birmingham_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Birmingham"
+    speech_output = "Thank you for your vote for Birmingham.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = "You can tell me what ingredient you'd like to sub. "
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
+def boston_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Boston"
+    speech_output = "Thank you for your vote for Boston.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
+def buffalo_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Buffalo"
+    speech_output = "Thank you for your vote for Buffalo.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
+def charlotte_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Charlotte"
+    speech_output = "Thank you for your vote for Charlotte.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
+def chicago_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Chicago"
+    speech_output = "Thank you for your vote for Chicago.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
+def cincinnati_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Cincinnati"
+    speech_output = "Thank you for your vote for Cincinnati.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
+def cleveland_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Cleveland"
+    speech_output = "Thank you for your vote for Cleveland.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
+def dallas_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Dallas"
+    speech_output = "Thank you for your vote for Dallas.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
+def denver_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Denver"
+    speech_output = "Thank you for your vote for Denver.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
+def detroit_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Detroit"
+    speech_output = "Thank you for your vote for Detroit.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
+def houston_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Houston"
+    speech_output = "Thank you for your vote for Houston.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
+def indy_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Indianapolis"
+    speech_output = "Thank you for your vote for Indianapolis.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
+def kansascity_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Kansas City"
+    speech_output = "Thank you for your vote for Kansas City.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
+def losangeles_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Los Angeles"
+    speech_output = "Thank you for your vote for Los Angeles.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
+def mexicocity_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Mexico City"
+    speech_output = "Thank you for your vote for Mexico City.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
+def miami_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Miami"
+    speech_output = "Thank you for your vote for Miami.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+
+def mnstpaul_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Minneapolis St. Paul"
+    speech_output = "Thank you for your vote for Minneapolis St. Paul.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+
+def montreal_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Montreal"
+    speech_output = "Thank you for your vote for Montreal.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
+def nashville_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Nashville"
+    speech_output = "Thank you for your vote for Nashville.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+
+def neworleans_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For New Orleans"
+    speech_output = "Thank you for your vote for New Orleans.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+
+def newyork_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For New York City"
+    speech_output = "Thank you for your vote for New York City.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
+def orlando_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Orlando"
+    speech_output = "Thank you for your vote for Orlando.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+
+def ottawa_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Ottawa"
+    speech_output = "Thank you for your vote for Ottawa.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
+def philly_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Philadelphia"
+    speech_output = "Thank you for your vote for Philadelphia.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+
+def phoenix_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Phoenix"
+    speech_output = "Thank you for your vote for Phoenix.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
 
 def portland_sub():
 
@@ -172,6 +549,34 @@ def portland_sub():
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
     reprompt_text = "You can tell me what ingredient you'd like to sub. "
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
+def raleigh_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Raleigh Durham"
+    speech_output = "Thank you for your vote for Raleigh Durham.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
+def sacramento_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Sacramento"
+    speech_output = "Thank you for your vote for Sacramento.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
 
     should_end_session = True
     return build_response(session_attributes, build_speechlet_response(
@@ -191,6 +596,48 @@ def seattle_sub():
     return build_response(session_attributes, build_speechlet_response(
         card_title, speech_output, reprompt_text, should_end_session))
         
+def saltlakecity_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For Salt Lake City"
+    speech_output = "Thanks for your vote for Salt Lake City.  I've made a note of it. You can check my skill page Second Headquarters for updated results.  Thank you."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
+def sanantonio_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For San Antonio"
+    speech_output = "Thanks for your vote for San Antonio.  I've made a note of it. You can check my skill page Second Headquarters for updated results.  Thank you."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = "You can tell me what ingredient you'd like to sub. "
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
+def sandiego_sub():
+
+    session_attributes = {}
+    card_title = "You've Voted For San Diego"
+    speech_output = "Thanks for your vote for San Diego.  I've made a note of it. You can check my skill page Second Headquarters for updated results.  Thank you."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
 def sanfran_sub():
 
     session_attributes = {}
@@ -205,6 +652,90 @@ def sanfran_sub():
     return build_response(session_attributes, build_speechlet_response(
         card_title, speech_output, reprompt_text, should_end_session))
         
+def sanjose_sub():
+
+    session_attributes = {}
+    card_title = "You've voted for San Jose"
+    speech_output = "Thank you for your vote for San Jose.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
+def oakland_sub():
+
+    session_attributes = {}
+    card_title = "You've voted for Oakland"
+    speech_output = "Thank you for your vote for Oakland.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
+def saintlouis_sub():
+
+    session_attributes = {}
+    card_title = "You've voted for St. Louis"
+    speech_output = "Thank you for your vote for St. Louis.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+        
+def tampa_sub():
+
+    session_attributes = {}
+    card_title = "You've voted for Tampa"
+    speech_output = "Thank you for your vote for Tampa.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+
+def toronto_sub():
+
+    session_attributes = {}
+    card_title = "You've voted for Toronto"
+    speech_output = "Thank you for your vote for Toronto.  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+
+def washingtondc_sub():
+
+    session_attributes = {}
+    card_title = "You've voted for Washington D.C."
+    speech_output = "Thank you for your vote for Washington D.C..  I've made a note of it."
+ 
+    # If the user either does not reply to the welcome message or says something
+    # that is not understood, they will be prompted again with this text.
+    reprompt_text = ""
+
+    should_end_session = True
+    return build_response(session_attributes, build_speechlet_response(
+        card_title, speech_output, reprompt_text, should_end_session))
+
 def lasvegas_sub():
 
     session_attributes = {}
@@ -409,12 +940,88 @@ def on_intent(intent_request, session):
         return not_found()
     elif intent_name == "AtlantaIntent":
         return atlanta_sub()
+    elif intent_name == "AustinIntent":
+        return austin_sub()
+    elif intent_name == "BaltimoreIntent":
+        return baltimore_sub()
+    elif intent_name == "BirminghamIntent":
+        return birmingham_sub()
+    elif intent_name == "BostonIntent":
+        return boston_sub()
+    elif intent_name == "BuffaloIntent":
+        return buffalo_sub()
+    elif intent_name == "CharlotteIntent":
+        return charlotte_sub()
+    elif intent_name == "ChicagoIntent":
+        return chicago_sub()
+    elif intent_name == "CincinnatiIntent":
+        return cincinnati_sub()
+    elif intent_name == "ClevelandIntent":
+        return cleveland_sub()
+    elif intent_name == "DallasIntent":
+        return dallas_sub()
+    elif intent_name == "DenverIntent":
+        return denver_sub()
+    elif intent_name == "DetroitIntent":
+        return detroit_sub()
+    elif intent_name == "HoustonIntent":
+        return houston_sub()
+    elif intent_name == "IndianapolisIntent":
+        return indy_sub()
+    elif intent_name == "KansasCityIntent":
+        return kansascity_sub()
+    elif intent_name == "LosAngelesIntent":
+        return losangeles_sub()
+    elif intent_name == "MexicoCityIntent":
+        return mexicocity_sub()
+    elif intent_name == "MiamiIntent":
+        return miami_sub()
+    elif intent_name == "MinneapolisIntent":
+        return mnstpaul_sub()
+    elif intent_name == "MontrealIntent":
+        return montreal_sub()
+    elif intent_name == "NashvilleIntent":
+        return nashville_sub()
+    elif intent_name == "NewOrleansIntent":
+        return neworleans_sub()
+    elif intent_name == "NewYorkIntent":
+        return newyork_sub()
+    elif intent_name == "OaklandIntent":
+        return oakland_sub()
+    elif intent_name == "OrlandoIntent":
+        return orlando_sub()
+    elif intent_name == "OttawaIntent":
+        return ottawa_sub()
+    elif intent_name == "PhiladelphiaIntent":
+        return philly_sub()
+    elif intent_name == "PhoenixIntent":
+        return phoenix_sub()
     elif intent_name == "PortlandIntent":
         return portland_sub()
+    elif intent_name == "RaleighIntent":
+        return raleigh_sub()
+    elif intent_name == "SacramentoIntent":
+        return sacramento_sub()
+    elif intent_name == "SaltLakeCityIntent":
+        return saltlakecity_sub()
+    elif intent_name == "SanAntonioIntent":
+        return sanantonio_sub()
+    elif intent_name == "SanDiegoIntent":
+        return sandiego_sub()
     elif intent_name == "SeattleIntent":
         return seattle_sub()
     elif intent_name == "SanFranciscoIntent":
         return sanfran_sub()
+    elif intent_name == "SanJoseIntent":
+        return sanjose_sub()
+    elif intent_name == "StLouisIntent":
+        return saintlouis_sub()
+    elif intent_name == "TampaIntent":
+        return tampa_sub()
+    elif intent_name == "TorontoIntent":
+        return toronto_sub()
+    elif intent_name == "WashingtonDCIntent":
+        return washingtondc_sub()
     elif intent_name == "LasVegasIntent":
         return lasvegas_sub()
     elif intent_name == "BakingPowderIntent":
