@@ -50,11 +50,11 @@ def get_welcome_response():
 
     session_attributes = {}
     card_title = ""
-    speech_output = "Welcome to Second Headquarters.\nWhere should I build my second headquarters?"
+    speech_output = "Where should I build my second headquarters?  You can check the skill page Second Headquarters to see qualfied cities."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
-    reprompt_text = "You can just say the name of the city you'd like to see the second headquarters built?"
+    reprompt_text = "You can say the name of the city you'd like to see the Second Headquarters built in."
 
     should_end_session = False
     return build_response(session_attributes, build_speechlet_response(
@@ -62,7 +62,7 @@ def get_welcome_response():
 
 
 def handle_session_end_request():
-    card_title = "Session Ended"
+    card_title = ""
     speech_output = "Thanks for your input.  You can check my skill page Second Headquarters for updated results."
     
     # Setting this to true ends the session and exits the skill.
@@ -110,10 +110,10 @@ def get_color_from_session(intent, session):
 
     if session.get('attributes', {}) and "favoriteColor" in session.get('attributes', {}):
         favorite_color = session['attributes']['favoriteColor']
-        speech_output = "Sorry, I don't seem to know that one. Would you like another sub?"
+        speech_output = "Sorry, that city isn't in the list of qualified cities.  Where should I bulid my second headquarters?"
         should_end_session = False
     else:
-        speech_output = "Sorry, I don't seem to know that one. Would you like another sub?"
+        speech_output = "Sorry, that city isn't in the list of qualified cities.  Where should I bulid my second headquarters?"
         should_end_session = False
 
     # Setting reprompt_text to None signifies that we do not want to reprompt
@@ -137,12 +137,12 @@ def butter_sub(intent, session):
 def keep_going():
 
     session_attributes = {}
-    card_title = "Keep Going"
-    speech_output = "What ingredient would you like to sub?"
+    card_title = ""
+    speech_output = "What city should I build my second headquarters in?"
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
-    reprompt_text = "You can tell me what ingredient you'd like to sub. "
+    reprompt_text = "You can say the name of the city you want my second headquarters to be built in."
 
     should_end_session = False
     return build_response(session_attributes, build_speechlet_response(
@@ -152,11 +152,11 @@ def atlanta_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Atlanta"
-    speech_output = "Thank you for your vote for Atlanta.  I've made a note of it."
+    speech_output = "Thank you for your vote for Atlanta.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
-    reprompt_text = "You can tell me what ingredient you'd like to sub. "
+    reprompt_text = ""
 
     should_end_session = True
     return build_response(session_attributes, build_speechlet_response(
@@ -166,11 +166,11 @@ def austin_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Austin"
-    speech_output = "Thank you for your vote for Austin.  I've made a note of it."
+    speech_output = "Thank you for your vote for Austin.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
-    reprompt_text = "You can tell me what ingredient you'd like to sub. "
+    reprompt_text = ""
 
     should_end_session = True
     return build_response(session_attributes, build_speechlet_response(
@@ -180,11 +180,11 @@ def baltimore_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Baltimore"
-    speech_output = "Thank you for your vote for Baltimore.  I've made a note of it."
+    speech_output = "Thank you for your vote for Baltimore.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
-    reprompt_text = "You can tell me what ingredient you'd like to sub. "
+    reprompt_text = ""
 
     should_end_session = True
     return build_response(session_attributes, build_speechlet_response(
@@ -194,11 +194,11 @@ def birmingham_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Birmingham"
-    speech_output = "Thank you for your vote for Birmingham.  I've made a note of it."
+    speech_output = "Thank you for your vote for Birmingham.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
-    reprompt_text = "You can tell me what ingredient you'd like to sub. "
+    reprompt_text = ""
 
     should_end_session = True
     return build_response(session_attributes, build_speechlet_response(
@@ -208,7 +208,7 @@ def boston_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Boston"
-    speech_output = "Thank you for your vote for Boston.  I've made a note of it."
+    speech_output = "Thank you for your vote for Boston.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -222,7 +222,7 @@ def buffalo_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Buffalo"
-    speech_output = "Thank you for your vote for Buffalo.  I've made a note of it."
+    speech_output = "Thank you for your vote for Buffalo.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -236,7 +236,7 @@ def charlotte_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Charlotte"
-    speech_output = "Thank you for your vote for Charlotte.  I've made a note of it."
+    speech_output = "Thank you for your vote for Charlotte.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -250,7 +250,7 @@ def chicago_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Chicago"
-    speech_output = "Thank you for your vote for Chicago.  I've made a note of it."
+    speech_output = "Thank you for your vote for Chicago.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -264,7 +264,7 @@ def cincinnati_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Cincinnati"
-    speech_output = "Thank you for your vote for Cincinnati.  I've made a note of it."
+    speech_output = "Thank you for your vote for Cincinnati.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -278,7 +278,7 @@ def cleveland_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Cleveland"
-    speech_output = "Thank you for your vote for Cleveland.  I've made a note of it."
+    speech_output = "Thank you for your vote for Cleveland.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -292,7 +292,7 @@ def dallas_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Dallas"
-    speech_output = "Thank you for your vote for Dallas.  I've made a note of it."
+    speech_output = "Thank you for your vote for Dallas.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -306,7 +306,7 @@ def denver_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Denver"
-    speech_output = "Thank you for your vote for Denver.  I've made a note of it."
+    speech_output = "Thank you for your vote for Denver.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -320,7 +320,7 @@ def detroit_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Detroit"
-    speech_output = "Thank you for your vote for Detroit.  I've made a note of it."
+    speech_output = "Thank you for your vote for Detroit.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -334,7 +334,7 @@ def houston_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Houston"
-    speech_output = "Thank you for your vote for Houston.  I've made a note of it."
+    speech_output = "Thank you for your vote for Houston.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -348,7 +348,7 @@ def indy_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Indianapolis"
-    speech_output = "Thank you for your vote for Indianapolis.  I've made a note of it."
+    speech_output = "Thank you for your vote for Indianapolis.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -362,7 +362,7 @@ def kansascity_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Kansas City"
-    speech_output = "Thank you for your vote for Kansas City.  I've made a note of it."
+    speech_output = "Thank you for your vote for Kansas City.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -376,7 +376,7 @@ def losangeles_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Los Angeles"
-    speech_output = "Thank you for your vote for Los Angeles.  I've made a note of it."
+    speech_output = "Thank you for your vote for Los Angeles.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -390,7 +390,7 @@ def mexicocity_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Mexico City"
-    speech_output = "Thank you for your vote for Mexico City.  I've made a note of it."
+    speech_output = "Thank you for your vote for Mexico City.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -404,7 +404,7 @@ def miami_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Miami"
-    speech_output = "Thank you for your vote for Miami.  I've made a note of it."
+    speech_output = "Thank you for your vote for Miami.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -432,7 +432,7 @@ def montreal_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Montreal"
-    speech_output = "Thank you for your vote for Montreal.  I've made a note of it."
+    speech_output = "Thank you for your vote for Montreal.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -446,7 +446,7 @@ def nashville_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Nashville"
-    speech_output = "Thank you for your vote for Nashville.  I've made a note of it."
+    speech_output = "Thank you for your vote for Nashville.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -460,7 +460,7 @@ def neworleans_sub():
 
     session_attributes = {}
     card_title = "You've Voted For New Orleans"
-    speech_output = "Thank you for your vote for New Orleans.  I've made a note of it."
+    speech_output = "Thank you for your vote for New Orleans.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -474,7 +474,7 @@ def newyork_sub():
 
     session_attributes = {}
     card_title = "You've Voted For New York City"
-    speech_output = "Thank you for your vote for New York City.  I've made a note of it."
+    speech_output = "Thank you for your vote for New York City.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -488,7 +488,7 @@ def orlando_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Orlando"
-    speech_output = "Thank you for your vote for Orlando.  I've made a note of it."
+    speech_output = "Thank you for your vote for Orlando.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -502,7 +502,7 @@ def ottawa_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Ottawa"
-    speech_output = "Thank you for your vote for Ottawa.  I've made a note of it."
+    speech_output = "Thank you for your vote for Ottawa.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -516,7 +516,7 @@ def philly_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Philadelphia"
-    speech_output = "Thank you for your vote for Philadelphia.  I've made a note of it."
+    speech_output = "Thank you for your vote for Philadelphia.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -530,7 +530,7 @@ def phoenix_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Phoenix"
-    speech_output = "Thank you for your vote for Phoenix.  I've made a note of it."
+    speech_output = "Thank you for your vote for Phoenix.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -544,11 +544,11 @@ def portland_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Portland"
-    speech_output = "Thank you for your vote for Portland.  I've made a note of it."
+    speech_output = "Thank you for your vote for Portland.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
-    reprompt_text = "You can tell me what ingredient you'd like to sub. "
+    reprompt_text = ""
 
     should_end_session = True
     return build_response(session_attributes, build_speechlet_response(
@@ -558,7 +558,7 @@ def raleigh_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Raleigh Durham"
-    speech_output = "Thank you for your vote for Raleigh Durham.  I've made a note of it."
+    speech_output = "Thank you for your vote for Raleigh Durham.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -572,7 +572,7 @@ def sacramento_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Sacramento"
-    speech_output = "Thank you for your vote for Sacramento.  I've made a note of it."
+    speech_output = "Thank you for your vote for Sacramento.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -586,11 +586,11 @@ def seattle_sub():
 
     session_attributes = {}
     card_title = "You've Voted For Seattle"
-    speech_output = "Thanks for your vote for Seattle.  I've made a note of it. You can check my skill page Second Headquarters for updated results.  Thank you."
+    speech_output = "Thanks for your vote for Seattle.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
-    reprompt_text = "You can tell me what ingredient you'd like to sub. "
+    reprompt_text = ""
 
     should_end_session = True
     return build_response(session_attributes, build_speechlet_response(
@@ -618,7 +618,7 @@ def sanantonio_sub():
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
-    reprompt_text = "You can tell me what ingredient you'd like to sub. "
+    reprompt_text = ""
 
     should_end_session = True
     return build_response(session_attributes, build_speechlet_response(
@@ -642,7 +642,7 @@ def sanfran_sub():
 
     session_attributes = {}
     card_title = "You've voted for San Francisco"
-    speech_output = "Thank you for your vote for San Francisco.  I've made a note of it."
+    speech_output = "Thank you for your vote for San Francisco.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -656,7 +656,7 @@ def sanjose_sub():
 
     session_attributes = {}
     card_title = "You've voted for San Jose"
-    speech_output = "Thank you for your vote for San Jose.  I've made a note of it."
+    speech_output = "Thank you for your vote for San Jose.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -670,7 +670,7 @@ def oakland_sub():
 
     session_attributes = {}
     card_title = "You've voted for Oakland"
-    speech_output = "Thank you for your vote for Oakland.  I've made a note of it."
+    speech_output = "Thank you for your vote for Oakland.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -684,7 +684,7 @@ def saintlouis_sub():
 
     session_attributes = {}
     card_title = "You've voted for St. Louis"
-    speech_output = "Thank you for your vote for St. Louis.  I've made a note of it."
+    speech_output = "Thank you for your vote for St. Louis.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -698,7 +698,7 @@ def tampa_sub():
 
     session_attributes = {}
     card_title = "You've voted for Tampa"
-    speech_output = "Thank you for your vote for Tampa.  I've made a note of it."
+    speech_output = "Thank you for your vote for Tampa.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -712,7 +712,7 @@ def toronto_sub():
 
     session_attributes = {}
     card_title = "You've voted for Toronto"
-    speech_output = "Thank you for your vote for Toronto.  I've made a note of it."
+    speech_output = "Thank you for your vote for Toronto.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -726,7 +726,7 @@ def washingtondc_sub():
 
     session_attributes = {}
     card_title = "You've voted for Washington D.C."
-    speech_output = "Thank you for your vote for Washington D.C..  I've made a note of it."
+    speech_output = "Thank you for your vote for Washington D.C..  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
@@ -740,7 +740,7 @@ def lasvegas_sub():
 
     session_attributes = {}
     card_title = "You've Voted for Las Vegas"
-    speech_output = "Thank you for your vote for Las Vegas.  I've made a note of it."
+    speech_output = "Thank you for your vote for Las Vegas.  I've made a note of it. You can check the skill page Second Headquarters for updated results.  Thank you."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
