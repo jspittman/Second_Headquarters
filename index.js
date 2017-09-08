@@ -884,7 +884,7 @@ def drink_sub():
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
-    reprompt_text = "You can tell me what ingredient you'd like to sub. "
+    reprompt_text = ""
 
     should_end_session = False
     return build_response(session_attributes, build_speechlet_response(
@@ -893,12 +893,12 @@ def drink_sub():
 def not_found():
 
     session_attributes = {}
-    card_title = "NotFound"
-    speech_output = "Sorry, I don't seem to know that one.  You can leave a comment on my skill page if you'd like to see a sub added.  Would you like to request a different sub?"
+    card_title = "City not Found"
+    speech_output = "Sorry, I don't seem to know that city.  Most cities that qualify are large cities.  You can check the second headquarters skill page for a list of cities."
  
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
-    reprompt_text = "You can tell me what ingredient you'd like to sub. "
+    reprompt_text = "Just say the name of a qualified city."
 
     should_end_session = False
     return build_response(session_attributes, build_speechlet_response(
@@ -936,7 +936,7 @@ def on_intent(intent_request, session):
 
     if intent_name == "WhatsMyColorIntent":
         return get_color_from_session(intent, session)
-    elif intent_name == "RequestIntent":
+    elif intent_name == "NotFoundIntent":
         return not_found()
     elif intent_name == "AtlantaIntent":
         return atlanta_sub()
@@ -1024,34 +1024,12 @@ def on_intent(intent_request, session):
         return washingtondc_sub()
     elif intent_name == "LasVegasIntent":
         return lasvegas_sub()
-    elif intent_name == "BakingPowderIntent":
-        return baking_powder_sub()
-    elif intent_name == "HalfandHalfIntent":
-        return half_and_half_sub()
-    elif intent_name == "MolassesIntent":
-        return molasses_sub()
-    elif intent_name == "UnChocIntent":
-        return un_choc_sub()
-    elif intent_name == "RicottaIntent":
-        return ricotta_sub()
-    elif intent_name == "HeavyCreamIntent":
-        return heavy_cream_sub()
-    elif intent_name == "SelfRisingIntent":
-        return self_rising_sub()
-    elif intent_name == "OilIntent":
-        return oil_sub()
-    elif intent_name == "FoodIntent":
-        return food_sub()
-    elif intent_name == "DrinkIntent":
-        return drink_sub()
     elif intent_name == "ContinueIntent":
         return keep_going()
     elif intent_name == "AMAZON.HelpIntent":
         return help_reponse()
     elif intent_name == "AMAZON.CancelIntent" or intent_name == "AMAZON.StopIntent":
         return handle_session_end_request()
-    elif intent_name != "ButterIntent" or "SeattleIntent" or "ButterMilkIntent" or "BrownSugarIntent" or "BakingPowderIntent" or "HalfandHalfIntent" or "MolassesIntent" or "UnChocIntent" or "RicottaIntent" or "HeavyCreamIntent" or "SelfRisingIntent":
-        return not_found()
     else:
         return not_found()
 
