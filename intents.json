@@ -68,6 +68,120 @@
     },
     {
       "intent": "AtlantaIntent"
+    },
+    {
+      "intent": "AustinIntent"
+    },
+    {
+      "intent": "BaltimoreIntent"
+    },
+    {
+      "intent": "BirminghamIntent"
+    },
+    {
+      "intent": "BostonIntent"
+    },
+    {
+      "intent": "BuffaloIntent"
+    },
+    {
+      "intent": "CharlotteIntent"
+    },
+    {
+      "intent": "ChicagoIntent"
+    },
+    {
+      "intent": "CincinnatiIntent"
+    },
+    {
+      "intent": "ClevelandIntent"
+    },
+    {
+      "intent": "DallasIntent"
+    },
+    {
+      "intent": "DenverIntent"
+    },
+    {
+      "intent": "DetroitIntent"
+    },
+    {
+      "intent": "HoustonIntent"
+    },
+    {
+      "intent": "IndianapolisIntent"
+    },
+    {
+      "intent": "KansasCityIntent"
+    },
+    {
+      "intent": "LosAngelesIntent"
+    },
+    {
+      "intent": "MexicoCityIntent"
+    },
+    {
+      "intent": "MiamiIntent"
+    },
+    {
+      "intent": "MinneapolisIntent"
+    },
+    {
+      "intent": "MontrealIntent"
+    },
+    {
+      "intent": "NashvilleIntent"
+    },
+    {
+      "intent": "NewOrleansIntent"
+    },
+    {
+      "intent": "NewYorkIntent"
+    },
+    {
+      "intent": "OrlandoIntent"
+    },
+    {
+      "intent": "OttawaIntent"
+    },
+    {
+      "intent": "PhiladelphiaIntent"
+    },
+    {
+      "intent": "PhoenixIntent"
+    },
+    {
+      "intent": "RaleighIntent"
+    },
+    {
+      "intent": "SacramentoIntent"
+    },
+    {
+      "intent": "SaltLakeCityIntent"
+    },
+    {
+      "intent": "SanAntonioIntent"
+    },
+    {
+      "intent": "SanDiegoIntent"
+    },
+    {
+      "intent": "SanJoseIntent"
+    },
+    {
+      "intent": "OaklandIntent"
+    },
+    {
+      "intent": "StLouisIntent"
+    },
+    {
+      "intent": "TampaIntent"
+    },
+    {
+      "intent": "TorontoIntent"
+    },
+    {
+      "intent": "WashingtonDCIntent"
     }
   ]
 }
