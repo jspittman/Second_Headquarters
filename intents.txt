@@ -21,14 +21,162 @@ AMAZON.StopIntent all finished
 AMAZON.CancelIntent cancel
 AtlantaIntent atlanta
 AtlantaIntent atllant georiga
+AustinIntent austin
+AustinIntent austin texas
+BaltimoreIntent baltimore
+BaltimoreIntent baltimore maryland
+BaltimoreIntent balldimore
+BaltimoreIntent balldimore maryland
+BirminghamIntent birmingham
+BirminghamIntent birmingham alabama
+BostonIntent boston
+BostonIntent boston massachusetts
+BuffaloIntent buffalo
+BuffaloIntent buffalo new york
+CharlotteIntent charlotte
+CharlotteIntent charlotte north carolina
+ChicagoIntent chicago
+ChicagoIntent chicago illnois
+CincinnatiIntent cincinnati
+CincinnatiIntent cincinnati ohio
+ClevelandIntent cleveland
+ClevelandIntent cleveland ohio
+DallasIntent dallas
+DallasIntent dallas texas
+DenverIntent denver
+DenverIntent denver colorado
+DetroitIntent detroit
+DetroitIntent detroit michigan
+HoustonIntent houston
+HoustonIntent houston texas
+IndianapolisIntent indianapolis
+IndianapolisIntent indianapolis indiana
+KansasCityIntent kansas city
+KansasCityIntent kansas city kansas
+LosAngelesIntent los angeles
+LosAngelesIntent los angeles california
+MexicoCityIntent mexico city
+MexicoCityIntent city of mexico
+MexicoCityIntent mexico city mexico
+MiamiIntent miami
+MiamiIntent miami florida
+MinneapolisIntent minneapolis
+MinneapolisIntent minneapolis minnesota
+MinneapolisIntent minneapolis saint paul
+MinneapolisIntent minneapolis saint paul minnesota
+MinneapolisIntent saint paul minnesota
+MinneapolisIntent saint paul
+MontrealIntent montreal
+MontrealIntent montreal canada
+NashvilleIntent nashville
+NashvilleIntent nashville tennessee
+NashvilleIntent nash vill
+NashvilleIntent nash vil
+NashvilleIntent gnash vil
+NewOrleansIntent new orleans
+NewOrleansIntent na orleans
+NewOrleansIntent new or leans
+NewOrleansIntent neworlans
+NewOrleansIntent new or lins
+NewOrleansIntent new orleans louisiana
+NewYorkIntent new york
+NewYorkIntent new york city
+NewYorkIntent new york new york
+NewYorkIntent new yark
+NewYorkIntent new york city new york
+OrlandoIntent orlando
+OrlandoIntent orlando florida
+OrlandoIntent o lando
+OttawaIntent ottawa
+OttawaIntent ottawa canada
+OttawaIntent aught to wa
+OttawaIntent aught t way
+OttawaIntent aught ta wha
+OttawaIntent ought to wa
+OttawaIntent ot ta 
+OttawaIntent ot tu wa
+OttawaIntent ot ta wa
+PhiladelphiaIntent philadelphia
+PhiladelphiaIntent philadelphia pennsylvania
+PhiladelphiaIntent philly
+PhiladelphiaIntent filly
+PhiladelphiaIntent fill e
+PhoenixIntent phoenix
+PhoenixIntent fee nix
+PhoenixIntent phoenix arizona
+PhoenixIntent fee nix arizona
 PortlandIntent portland
 PortlandIntent portland oregon
+RaleighIntent raleigh
+RaleighIntent raleigh north carolina
+RaleighIntent ral e
+RaleighIntent ral e north carolina
+RaleighIntent durham
+RaleighIntent dur ham
+RaleighIntent dur ham north carolina
+SacramentoIntent sacramento
+SacramentoIntent sacramento calfornia
+SacramentoIntent sac ra men toe
+SacramentoIntent sack ra men toe
+SaltLakeCityIntent salt lake city
+SaltLakeCityIntent salt lake city utah
+SaltLakeCityIntent saltlake city 
+SanAntonioIntent san antonio
+SanAntonioIntent san an to ni o
+SanAntonioIntent san antonio texas
+SanAntonioIntent san an to nio
+SanAntonioIntent san an toe ne o
+SanAntonioIntent san an toe neo
+SanDiegoIntent san diego
+SanDiegoIntent san de a go
+SanDiegoIntent san de a go california
+SanDiegoIntent san diego california
+SanDiegoIntent sande a go
 SeattleIntent Seattle
 SeattleIntent Seattle washington
 SanFranciscoIntent san francisco
 SanFranciscoIntent san francisco california
 SanFranciscoIntent sanfrancisco california
 SanFranciscoIntent sanfrancisco
+SanJoseIntent san jose
+SanJoseIntent san jose california
+SanJoseIntent san ho say
+SanJoseIntent san hosay
+SanJoseIntent san ho say california
+OaklandIntent oakland
+OaklandIntent oakland california
+OaklandIntent oak lund
+OaklandIntent oak land
+OaklandIntent oak lund california
+OaklandIntent oh k lund
+OaklandIntent oh k land
+OaklandIntent oh ch land
+OaklandIntent oh k lund
+StLouisIntent saint louis
+StLouisIntent saint lou is
+StLouisIntent saint lou iss
+StLouisIntent saint lou e
+StLouisIntent saint lou is
+StLouisIntent saint loo is
+StLouisIntent saint lew is
+TampaIntent tampa
+TampaIntent tampa florida
+TampaIntent tam pa
+TampaIntent tam pa florida
+TampaIntent tam puh florida
+TampaIntent tam puh
+TorontoIntent toronto
+TorontoIntent tor on toe
+TorontoIntent tor on toe
+TorontoIntent tur on toe
+TorontoIntent tortonto canada
+TorontoIntent tore on toe
+WashingtonDCIntent washington d. c.
+WashingtonDCIntent washington dee see
+WashingtonDCIntent washington d. see
+WashingtonDCIntent wash ing tun d. c.
+WashingtonDCIntent wash ing ton dee see
+WashingtonDCIntent wash ing ton d. c.
 LasVegasIntent las vegas
 LasVegasIntent vegas
 LasVegasIntent las vegas nevada
