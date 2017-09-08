@@ -7,7 +7,7 @@
           "type": "REQUEST_FROM_USERS"
         }
       ],
-      "intent": "RequestIntent"
+      "intent": "NotFoundIntent"
     },
     {
       "intent": "WhatsMyColorIntent"
